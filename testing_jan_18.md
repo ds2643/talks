@@ -5,7 +5,7 @@ Definition: *Testing* is the practice of writing programs that aim to disprove t
 
 - Stressing the difference between a program and its specification is critical. The specification may define the expected behavior of a program, but not its precise implementation (e.g., SBCL and CLISP vs ANSI Common Lisp).
 
-- Therefore, tests must be designed in a way that supports this goal. We'll talk about how programmatic behavior may be tested at different levels of granularity and certain domain specific approaches used to achieve this end.
+- Therefore, tests must be designed in a way that supports this goal. We'll talk about how programmatic behavior may be tested at different levels of granularity to achieve this end.
 
 ## example brief specification
 - L-system renderer: Sierpinsky triangle program renders a graphic based on a context-free grammar specification and set of drawing rules (e.g., turtle graphics)
@@ -116,4 +116,3 @@ Definition: *Testing* is the practice of writing programs that aim to disprove t
 ```
 - critical point: sample entire domain of function; best done in conjunction with unit tests, since the probability of hitting all branches might be extremely low.
 
-## resources: TODO
